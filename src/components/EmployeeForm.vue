@@ -9,7 +9,7 @@
                 @keypress="clearStatus"
             />
             <label>Employee Email</label>
-            <input type="text"
+            <input type="email"
                 :class="{ 'has-error': submitting && invalidEmail }"
                 v-model="employee.email"
                 @focus="clearStatus"
